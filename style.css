@@ -1,0 +1,686 @@
+/* all selecter */
+/* * { } */
+
+/* tag selecter */
+/* body { } */
+
+/* backgraoud proporties */
+1. background-attachment :- 
+    /* Keyword values */
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-attachment: local;
+
+    /* Global values */
+    background-attachment: inherit;
+    background-attachment: initial;
+    background-attachment: revert;
+    background-attachment: revert-layer;
+    background-attachment: unset;
+
+2. background-clip :- 
+    /* Keyword values */
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+    background-clip: text;
+
+    /* Global values */
+    background-clip: inherit;
+    background-clip: initial;
+    background-clip: revert;
+    background-clip: revert-layer;
+    background-clip: unset;
+
+3. background-color :- 
+    /* Keyword values */
+    background-color: red;
+    background-color: indigo;
+
+    /* Hexadecimal value */
+    background-color: #bbff00; /* Fully opaque */
+    background-color: #bf0; /* Fully opaque shorthand */
+    background-color: #11ffee00; /* Fully transparent */
+    background-color: #1fe0; /* Fully transparent shorthand */
+    background-color: #11ffeeff; /* Fully opaque */
+    background-color: #1fef; /* Fully opaque shorthand */
+
+    /* RGB value */
+    background-color: rgb(255, 255, 128); /* Fully opaque */
+    background-color: rgba(117, 190, 218, 0.5); /* 50% transparent */
+
+    /* HSL value */
+    background-color: hsl(50, 33%, 25%); /* Fully opaque */
+    background-color: hsla(50, 33%, 25%, 0.75 ); /* 75% opaque, i.e. 25% transparent */
+
+    /* Special keyword values */
+    background-color: currentcolor;
+    background-color: transparent;
+
+    /* Global values */
+    background-color: inherit;
+    background-color: initial;
+    background-color: revert;
+    background-color: revert-layer;
+    background-color: unset;
+
+4. background-image :- 
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+    ), url("catfront.png");
+
+    /* Global values */
+    background-image: inherit;
+    background-image: initial;
+    background-image: revert;
+    background-image: revert-layer;
+    background-image: unset;
+
+5. background-origin :- 
+    /* Keyword values */
+    background-origin: border-box;
+    background-origin: padding-box;
+    background-origin: content-box;
+
+    /* Global values */
+    background-origin: inherit;
+    background-origin: initial;
+    background-origin: revert;
+    background-origin: revert-layer;
+    background-origin: unset;
+
+6. background-position :- 
+    /* Keyword values */
+    background-position: top;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: center;
+
+    /* <percentage> values */
+    background-position: 25% 75%;
+
+    /* <length> values */
+    background-position: 0 0;
+    background-position: 1cm 2cm;
+    background-position: 10ch 8em;
+
+    /* Multiple images */
+    background-position: 0 0, center;
+
+    /* Edge offsets values */
+    background-position: bottom 10px right 20px;
+    background-position: right 3em bottom 10px;
+    background-position: bottom 10px right;
+    background-position: top right 10px;
+
+    /* Global values */
+    background-position: inherit;
+    background-position: initial;
+    background-position: revert;
+    background-position: revert-layer;
+    background-position: unset;
+
+7. background-repeat :- 
+    /* Keyword values */
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: space;
+    background-repeat: round;
+    background-repeat: no-repeat;
+
+    /* Two-value syntax: horizontal | vertical */
+    background-repeat: repeat space;
+    background-repeat: repeat repeat;
+    background-repeat: round space;
+    background-repeat: no-repeat round;
+
+    /* Global values */
+    background-repeat: inherit;
+    background-repeat: initial;
+    background-repeat: revert;
+    background-repeat: revert-layer;
+    background-repeat: unset;
+
+8. background-size :- 
+    /* Keyword values */
+    background-size: cover;
+    background-size: contain;
+
+    /* One-value syntax */
+    /* the width of the image (height becomes 'auto') */
+    background-size: 50%;
+    background-size: 3.2em;
+    background-size: 12px;
+    background-size: auto;
+
+    /* Two-value syntax */
+    /* first value: width of the image, second value: height */
+    background-size: 50% auto;
+    background-size: 3em 25%;
+    background-size: auto 6px;
+    background-size: auto auto;
+
+    /* Multiple backgrounds */
+    background-size: auto, auto; /* Not to be confused with `auto auto` */
+    background-size: 50%, 25%, 25%;
+    background-size: 6px, auto, contain;
+
+    /* Global values */
+    background-size: inherit;
+    background-size: initial;
+    background-size: revert;
+    background-size: revert-layer;
+    background-size: unset;
+
+/* font proporties */
+1. font-family :-
+    /* A font family name and a generic family name */
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+
+    /* A generic family name only */
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: system-ui;
+    font-family: ui-serif;
+    font-family: ui-sans-serif;
+    font-family: ui-monospace;
+    font-family: ui-rounded;
+    font-family: emoji;
+    font-family: math;
+    font-family: fangsong;
+
+    /* Global values */
+    font-family: inherit;
+    font-family: initial;
+    font-family: revert;
+    font-family: revert-layer;
+    font-family: unset;
+
+2. font-size :- 
+    /* <absolute-size> values */
+    font-size: xx-small;
+    font-size: x-small;
+    font-size: small;
+    font-size: medium;
+    font-size: large;
+    font-size: x-large;
+    font-size: xx-large;
+    font-size: xxx-large;
+
+    /* <relative-size> values */
+    font-size: smaller;
+    font-size: larger;
+
+    /* <length> values */
+    font-size: 12px;
+    font-size: 0.8em;
+
+    /* <percentage> values */
+    font-size: 80%;
+
+    /* math value */
+    font-size: math;
+
+    /* Global values */
+    font-size: inherit;
+    font-size: initial;
+    font-size: revert;
+    font-size: revert-layer;
+    font-size: unset;
+
+3. font-stretch :- 
+    /* Keyword values */
+    font-stretch: ultra-condensed;
+    font-stretch: extra-condensed;
+    font-stretch: condensed;
+    font-stretch: semi-condensed;
+    font-stretch: normal;
+    font-stretch: semi-expanded;
+    font-stretch: expanded;
+    font-stretch: extra-expanded;
+    font-stretch: ultra-expanded;
+
+    /* Percentage values */
+    font-stretch: 50%;
+    font-stretch: 100%;
+    font-stretch: 200%;
+
+    /* Global values */
+    font-stretch: inherit;
+    font-stretch: initial;
+    font-stretch: revert;
+    font-stretch: revert-layer;
+    font-stretch: unset;
+
+4. font-style :- 
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-style: oblique 10deg;
+
+    /* Global values */
+    font-style: inherit;
+    font-style: initial;
+    font-style: revert;
+    font-style: revert-layer;
+    font-style: unset;
+
+5. font-variant :- 
+    font-variant: small-caps;
+    font-variant: common-ligatures small-caps;
+
+    /* Global values */
+    font-variant: inherit;
+    font-variant: initial;
+    font-variant: revert;
+    font-variant: revert-layer;
+    font-variant: unset;
+        
+        /* font variant some proporties */
+        1. font-variant-alternates 
+            /* Keyword values */
+            font-variant-alternates: normal;
+            font-variant-alternates: historical-forms;
+
+            /* Functional notation values */
+            font-variant-alternates: stylistic(user-defined-ident);
+            font-variant-alternates: styleset(user-defined-ident);
+            font-variant-alternates: character-variant(user-defined-ident);
+            font-variant-alternates: swash(user-defined-ident);
+            font-variant-alternates: ornaments(user-defined-ident);
+            font-variant-alternates: annotation(user-defined-ident);
+            font-variant-alternates: swash(ident1) annotation(ident2);
+
+            /* Global values */
+            font-variant-alternates: inherit;
+            font-variant-alternates: initial;
+            font-variant-alternates: revert;
+            font-variant-alternates: revert-layer;
+            font-variant-alternates: unset;
+
+        2. font-variant-caps
+            /* Keyword values */
+            font-variant-caps: normal;
+            font-variant-caps: small-caps;
+            font-variant-caps: all-small-caps;
+            font-variant-caps: petite-caps;
+            font-variant-caps: all-petite-caps;
+            font-variant-caps: unicase;
+            font-variant-caps: titling-caps;
+
+            /* Global values */
+            font-variant-caps: inherit;
+            font-variant-caps: initial;
+            font-variant-caps: revert;
+            font-variant-caps: revert-layer;
+            font-variant-caps: unset;
+
+        3. font-variant-east-asian
+            font-variant-east-asian: normal;
+            font-variant-east-asian: ruby;
+            font-variant-east-asian: jis78; /* <east-asian-variant-values> */
+            font-variant-east-asian: jis83; /* <east-asian-variant-values> */
+            font-variant-east-asian: jis90; /* <east-asian-variant-values> */
+            font-variant-east-asian: jis04; /* <east-asian-variant-values> */
+            font-variant-east-asian: simplified; /* <east-asian-variant-values> */
+            font-variant-east-asian: traditional; /* <east-asian-variant-values> */
+            font-variant-east-asian: full-width; /* <east-asian-width-values> */
+            font-variant-east-asian: proportional-width; /* <east-asian-width-values> */
+            font-variant-east-asian: ruby full-width jis83;
+
+            /* Global values */
+            font-variant-east-asian: inherit;
+            font-variant-east-asian: initial;
+            font-variant-east-asian: revert;
+            font-variant-east-asian: revert-layer;
+            font-variant-east-asian: unset;
+
+        4. font-variant-ligatures 
+            /* Keyword values */
+            font-variant-ligatures: normal;
+            font-variant-ligatures: none;
+            font-variant-ligatures: common-ligatures; /* <common-lig-values> */
+            font-variant-ligatures: no-common-ligatures; /* <common-lig-values> */
+            font-variant-ligatures: discretionary-ligatures; /* <discretionary-lig-values> */
+            font-variant-ligatures: no-discretionary-ligatures; /* <discretionary-lig-values> */
+            font-variant-ligatures: historical-ligatures; /* <historical-lig-values> */
+            font-variant-ligatures: no-historical-ligatures; /* <historical-lig-values> */
+            font-variant-ligatures: contextual; /* <contextual-alt-values> */
+            font-variant-ligatures: no-contextual; /* <contextual-alt-values> */
+
+            /* Global values */
+            font-variant-ligatures: inherit;
+            font-variant-ligatures: initial;
+            font-variant-ligatures: revert;
+            font-variant-ligatures: revert-layer;
+            font-variant-ligatures: unset;
+
+        5. font-variant-numeric 
+            font-variant-numeric: normal;
+            font-variant-numeric: ordinal;
+            font-variant-numeric: slashed-zero;
+            font-variant-numeric: lining-nums; /* <numeric-figure-values> */
+            font-variant-numeric: oldstyle-nums; /* <numeric-figure-values> */
+            font-variant-numeric: proportional-nums; /* <numeric-spacing-values> */
+            font-variant-numeric: tabular-nums; /* <numeric-spacing-values> */
+            font-variant-numeric: diagonal-fractions; /* <numeric-fraction-values> */
+            font-variant-numeric: stacked-fractions; /* <numeric-fraction-values> */
+            font-variant-numeric: oldstyle-nums stacked-fractions;
+
+            /* Global values */
+            font-variant-numeric: inherit;
+            font-variant-numeric: initial;
+            font-variant-numeric: revert;
+            font-variant-numeric: revert-layer;
+            font-variant-numeric: unset;
+
+6. font-weight :- 
+    /* Keyword values */
+    font-weight: normal;
+    font-weight: bold;
+
+    /* Keyword values relative to the parent */
+    font-weight: lighter;
+    font-weight: bolder;
+
+    /* Numeric keyword values */
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 400; /* normal */
+    font-weight: 500;
+    font-weight: 600;
+    font-weight: 700; /* bold */
+    font-weight: 800;
+    font-weight: 900;
+
+    /* Global values */
+    font-weight: inherit;
+    font-weight: initial;
+    font-weight: revert;
+    font-weight: revert-layer;
+    font-weight: unset;
+
+7. line-height :- 
+    /* Keyword value */
+    line-height: normal;
+
+    /* Unitless values: use this number multiplied
+    by the element's font size */
+    line-height: 3.5;
+
+    /* <length> values */
+    line-height: 3em;
+
+    /* <percentage> values */
+    line-height: 34%;
+
+    /* Global values */
+    line-height: inherit;
+    line-height: initial;
+    line-height: revert;
+    line-height: revert-layer;
+    line-height: unset;
+
+8. letter-spacing :- 
+    /* Keyword value */
+    letter-spacing: normal;
+
+    /* <length> values */
+    letter-spacing: 0.3em;
+    letter-spacing: 3px;
+    letter-spacing: 0.3px;
+
+    /* Global values */
+    letter-spacing: inherit;
+    letter-spacing: initial;
+    letter-spacing: revert;
+    letter-spacing: revert-layer;
+    letter-spacing: unset;
+
+
+/* text properties */
+1. hanging-punctuation
+    /* Keyword values */
+    hanging-punctuation: none;
+    hanging-punctuation: first;
+    hanging-punctuation: last;
+    hanging-punctuation: force-end;
+    hanging-punctuation: allow-end;
+
+    /* Two keywords */
+    hanging-punctuation: first force-end;
+    hanging-punctuation: first allow-end;
+    hanging-punctuation: first last;
+    hanging-punctuation: last force-end;
+    hanging-punctuation: last allow-end;
+
+    /* Three keywords */
+    hanging-punctuation: first force-end last;
+    hanging-punctuation: first allow-end last;
+
+    /* Global values */
+    hanging-punctuation: inherit;
+    hanging-punctuation: initial;
+    hanging-punctuation: revert;
+    hanging-punctuation: revert-layer;
+    hanging-punctuation: unset;
+
+2. hyphens 
+    /* Keyword values */
+    hyphens: none;
+    hyphens: manual;
+    hyphens: auto;
+
+    /* Global values */
+    hyphens: inherit;
+    hyphens: initial;
+    hyphens: revert;
+    hyphens: revert-layer;
+    hyphens: unset;
+
+4. line-break 
+    /* Keyword values */
+    line-break: auto;
+    line-break: loose;
+    line-break: normal;
+    line-break: strict;
+    line-break: anywhere;
+
+    /* Global values */
+    line-break: inherit;
+    line-break: initial;
+    line-break: revert;
+    line-break: revert-layer;
+    line-break: unset;
+
+5. overflow-wrap
+    /* Keyword values */
+    overflow-wrap: normal;
+    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+
+    /* Global values */
+    overflow-wrap: inherit;
+    overflow-wrap: initial;
+    overflow-wrap: revert;
+    overflow-wrap: revert-layer;
+    overflow-wrap: unset;
+
+6. tab-size 
+    /* <integer> values */
+    tab-size: 4;
+    tab-size: 0;
+
+    /* <length> values */
+    tab-size: 10px;
+    tab-size: 2em;
+
+    /* Global values */
+    tab-size: inherit;
+    tab-size: initial;
+    tab-size: revert;
+    tab-size: revert-layer;
+    tab-size: unset;
+
+7. text-align
+    /* Keyword values */
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    text-align: justify-all;
+    text-align: match-parent;
+
+    /* Character-based alignment in a table column */
+    text-align: ".";
+    text-align: "." center;
+
+    /* Block alignment values (Non-standard syntax) */
+    text-align: -moz-center;
+    text-align: -webkit-center;
+
+    /* Global values */
+    text-align: inherit;
+    text-align: initial;
+    text-align: revert;
+    text-align: revert-layer;
+    text-align: unset;
+
+8. text-align-last
+    /* Keyword values */
+    text-align-last: auto;
+    text-align-last: start;
+    text-align-last: end;
+    text-align-last: left;
+    text-align-last: right;
+    text-align-last: center;
+    text-align-last: justify;
+
+    /* Global values */
+    text-align-last: inherit;
+    text-align-last: initial;
+    text-align-last: revert;
+    text-align-last: revert-layer;
+    text-align-last: unset;
+
+9. text-indent
+    /* <length> values */
+    text-indent: 3mm;
+    text-indent: 40px;
+
+    /* <percentage> value
+    relative to the containing block width */
+    text-indent: 15%;
+
+    /* Keyword values */
+    text-indent: 5em each-line;
+    text-indent: 5em hanging;
+    text-indent: 5em hanging each-line;
+
+    /* Global values */
+    text-indent: inherit;
+    text-indent: initial;
+    text-indent: revert;
+    text-indent: revert-layer;
+    text-indent: unset;
+
+10. text-justify
+    text-justify: none;
+    text-justify: auto;
+    text-justify: inter-word;
+    text-justify: inter-character;
+    text-justify: distribute; /* Deprecated value */
+
+    /* Global values */
+    text-justify: inherit;
+    text-justify: initial;
+    text-justify: revert;
+    text-justify: revert-layer;
+    text-justify: unset;
+
+11. text-size-adjust
+    /* Keyword values */
+    text-size-adjust: none;
+    text-size-adjust: auto;
+
+    /* <percentage> value */
+    text-size-adjust: 80%;
+
+    /* Global values */
+    text-size-adjust: inherit;
+    text-size-adjust: initial;
+    text-size-adjust: revert;
+    text-size-adjust: revert-layer;
+    text-size-adjust: unset;
+
+12. text-transform
+    /* Keyword values */
+    text-transform: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: full-width;
+    text-transform: full-size-kana;
+
+    /* Global values */
+    text-transform: inherit;
+    text-transform: initial;
+    text-transform: revert;
+    text-transform: revert-layer;
+    text-transform: unset;
+
+13. white-space
+    /* Keyword values */
+    white-space: normal;
+    white-space: nowrap;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    white-space: break-spaces;
+
+    /* Global values */
+    white-space: inherit;
+    white-space: initial;
+    white-space: revert;
+    white-space: revert-layer;
+    white-space: unset;
+
+14. word-break
+    /* Keyword values */
+    word-break: normal;
+    word-break: break-all;
+    word-break: keep-all;
+    word-break: break-word; /* deprecated */
+
+    /* Global values */
+    word-break: inherit;
+    word-break: initial;
+    word-break: revert;
+    word-break: revert-layer;
+    word-break: unset;
+
+15. word-spacing
+    /* Keyword value */
+    word-spacing: normal;
+
+    /* <length> values */
+    word-spacing: 3px;
+    word-spacing: 0.3em;
+
+    /* Global values */
+    word-spacing: inherit;
+    word-spacing: initial;
+    word-spacing: revert;
+    word-spacing: revert-layer;
+    word-spacing: unset;
