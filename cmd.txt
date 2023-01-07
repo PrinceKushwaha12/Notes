@@ -1,0 +1,16 @@
+// some command line code
+1. mkdir : make new file 
+2. ls : List 
+3. dir : disk List 
+4. cd : check derectories
+5. cd .. : back previous derectiries
+6. cd / : go starting derectories
+7. E: : change disk
+8. rm : remove file 
+9. rm -r Folder-name : remove folder 
+10. pwd : return current derectiries list 
+11. ls -a : return all avilable file in this derectiries
+12. control + A : starting line 
+13. control + E : ending line
+14. control + U : clear command
+15. alt + Arrow : move cursor in any point to change command

@@ -47,6 +47,20 @@ $("selecter").addClass("class-one class-two") // space sepreted add multiple cla
 $("selecter").click(function(){});
 $("selecter").on("click", function(){});
 
+// use multiple events at the same time 
+$("selecter").on({
+    click : function(){
+        // something here        
+    },
+    keypress : function(){
+        // something here 
+    }, 
+    hover : function() {
+
+    }
+});
+
+
 // adding and removing element using jQuery
 // 1. before(); 
 // 2. after();
@@ -57,16 +71,24 @@ $("selecter").on("click", function(){});
 $("selecter").before("something here");
 
 // animation add using jQuery 
-// 1. hide();
-// 2. show();
-// 3. toggle();
-// 4. fadeIn();
-// 5. fadeOut();
-// 6. fadeToggle();
-// 7. slideUp();
-// 8. slideDown();
+// 1. hide(duration, callback);
+// 2. show(duration, callback);
+// 3. toggle(duration, callback);
+// 4. fadeIn(duration, callback);
+// 5. fadeOut(duration, callback);
+// 6. fadeToggle(duration, callback);
+// 7. slideUp(duration, callback);
+// 8. slideDown(duration, callback);
 // 9. animate({css}) : only for numberic value
+// 10. fadeTo(duration, opacity, callback);
 
 Ex :- 
 $("selecter").animate({padding : 20});
 $("selecter").hide();
+
+// use chaning to apply multiple events at the same time 
+$("selecter").css("background-color", "red").hide().show().toggle().fadein() // more and more
+
+// Q. What is callback function ?
+// Ans : callback is a function. it is use to display some alert and some text after excutes events 
+
